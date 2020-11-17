@@ -11,6 +11,6 @@ Affiliations:<br />
 
 *Corresponding author. Email: jwertheim@health.ucsd.edu (JOW)
 
-The main and sensitivity analysis JSON files are used to make the initial FAVITES simulations. Then, for the established epidemics, the VirusTreeSimulator JSON file must be edited to include the proper paths to the contact and transmission networks in the FAVITES outputs from the initial simulations. 
+The main and sensitivity analysis JSON files are used to run the initial FAVITES simulations. Then, for the established epidemics, the VirusTreeSimulator JSON file must be edited to include the proper paths to the contact and transmission networks in the FAVITES outputs from the initial simulations. 
 
 The XML files are the BEAST inputs for both the strict and relaxed clock analyses. 
