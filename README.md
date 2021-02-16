@@ -14,3 +14,5 @@ Affiliations:<br />
 The main and sensitivity analysis JSON files are used to run the initial FAVITES simulations. Then, for the established epidemics, the VirusTreeSimulator JSON file must be edited to include the proper paths to the contact and transmission networks in the FAVITES outputs from the initial simulations. "TF" stands for transmission factor (e.g., "0.33xTF" is 1/3 the transmission rate of the main analysis), "R" is ascertainment rate (e.g., "2xR" is 2-times the ascertainment rate of the main analysis), and "hosp" indicates modulated hospitalization rate (e.g., "hosp2x" is 2-times the hospitalization rate). There can be more than one of these modulations per CONFIG file, as indicated in the name of the file. Please refer to the supplementary tables in the manuscript for further details.  
 
 The XML files are the BEAST inputs for the strict, relaxed clock, and Skygrid analyses. 
+
+The main results are in the RejectionSampling folder. All the two-phase results have "TwoPhase" in the name. Particular permutations are mentioned in the name. Please refer to the manuscript for further details.
