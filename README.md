@@ -15,4 +15,6 @@ The main and sensitivity analysis JSON files are used to run the initial FAVITES
 
 The XML files are the BEAST inputs for the strict, relaxed clock, and Skygrid analyses. 
 
+`rejection_sampling.py` is the code used to generate the main results, and it requires the coalescent data from FAVITES and tMRCAs from BEAST runs.
+
 The main results are in the RejectionSampling folder. All the two-phase results have "TwoPhase" in the name. Particular permutations are mentioned in the name. Please refer to the manuscript for further details.
